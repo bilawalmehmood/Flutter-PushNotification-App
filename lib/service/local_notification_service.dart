@@ -21,7 +21,7 @@ class LocalNotificationService {
         if (id!.isNotEmpty) {
           print("Router Value1234 $id");
 
-          Get.to(() => DemoScreen(id: id));
+          Get.to(() => DemoScreen(phone: id));
         }
       },
     );

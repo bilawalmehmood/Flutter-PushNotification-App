@@ -1,15 +1,15 @@
 import 'package:flutter/material.dart';
 
 class DemoScreen extends StatelessWidget {
-  final String id;
-  const DemoScreen({Key? key, required this.id}) : super(key: key);
+  final String phone;
+  const DemoScreen({Key? key, required this.phone}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(title: const Text('Flutter Notification')),
       body: Center(
-        child: Text('this is $id'),
+        child: Text('this is $phone'),
       ),
     );
   }
